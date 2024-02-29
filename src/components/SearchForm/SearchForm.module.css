@@ -1,0 +1,20 @@
+.form {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.input {
+  background-color: rgb(242, 238, 238);
+  padding: 10px;
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  padding-left: 40px;
+}
+.form:focus {
+  border-color: lightblue;
+}

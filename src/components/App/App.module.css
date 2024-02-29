@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+.header {
+  font-size: 24px;
+}
+.header span {
+  font-weight: bold;
+}
+.subHeader {
+  font-size: 22px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 66%;
+}
+.tripListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.weekContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+.todayContainer {
+  display: flex;
+  color: rgb(242, 238, 238);
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/assets/images/bluesky.jpg");
+  width: 33%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
